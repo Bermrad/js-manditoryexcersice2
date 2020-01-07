@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>TicTacToe</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="style.css?v=1.0">
+
+</head>
+
+<body>
+    <script src="scripts.js" defer></script>
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
+    <div class="navbar">
+                <button onclick="clearBoard()">Reset</button>
+                <button onclick="playAgainstAI(true)">Play Against Human</button>
+                <button onclick="playAgainstAI(false)">Play Against AI</button>
+                
+    </div>
+
+    <div class="navbartext">
+        <h2>Playing Aigainst</h2>
+        <h2 id="typeofplayer">: Player</h2>
+    </div>
+    
+    <div class="GameSquare">
+            
+            
+        <div class="GameArea">
+            
+            <div class="grid1" id="0" onclick="addMove(this.id);">
+            </div>
+            <div class="grid1" id="1" onclick="addMove(this.id);">
+            </div>
+            <div class="grid1" id="2" onclick="addMove(this.id);">
+            </div>
+            <div class="grid1" id="3" onclick="addMove(this.id);">
+            </div>
+            <div class="grid1" id="4" onclick="addMove(this.id);">
+            </div>
+            <div class="grid1" id="5" onclick="addMove(this.id);">
+            </div>
+            <div class="grid1" id="6" onclick="addMove(this.id);">
+            </div>
+            <div class="grid1" id="7" onclick="addMove(this.id);">
+            </div>
+            <div class="grid1" id="8" onclick="addMove(this.id);">
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
